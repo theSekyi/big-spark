@@ -1,2 +1,7 @@
 spark/
 notebooks/
+.venv/
+tpcds_data_5g/
+*.parquet
+*.log
+logs/
