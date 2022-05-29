@@ -5,3 +5,7 @@ tpcds_data_5g/
 *.parquet
 *.log
 logs/
+*.csv
+__pycache__/
+*.pyc
+

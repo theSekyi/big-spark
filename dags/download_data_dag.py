@@ -13,13 +13,8 @@ S3_BUCKET = "s3://bigspark.challenge.data/tpcds_data_5g"
 local_workflow = DAG(
     "LocalIngestionDag",
     schedule_interval="@daily",
-    start_date= datetime(2021,5,1),
+    start_date=datetime(2021, 5, 1),
 )
 
 with local_workflow:
-    download_data_task = BashOperator(
-        task_id='download-data',
-        bash_command=f'ls .'
-    )
-
-
+    download_data_task = BashOperator(task_id="download-data", bash_command=f"ls .")
