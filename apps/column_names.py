@@ -91,3 +91,33 @@ columns_store_sales = [
     "ss_net_paid_inc_tax",
     "ss_net_profit",
 ]
+
+
+columns_to_select = [
+    "t_am_pm",
+    "t_hour",
+    "t_shift",
+    "i_class",
+    "i_category",
+    "i_color",
+    "s_store_name",
+    "s_number_employees",
+    "s_floor_space",
+    "s_hours",
+    "s_country",
+    "s_city",
+    "ss_sales_price",
+    "ss_quantity",
+    "d_date",
+    "d_quarter_name",
+    "d_holiday",
+    "d_weekend",
+    "d_following_holiday",
+    "d_first_dom",
+    "d_last_dom",
+    "d_current_day",
+    "d_current_week",
+    "d_current_month",
+    "d_current_quarter",
+    "d_current_year",
+]
