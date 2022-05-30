@@ -5,3 +5,4 @@ tpcds_data_5g/
 *.parquet
 *.log
 logs/
+*.env
